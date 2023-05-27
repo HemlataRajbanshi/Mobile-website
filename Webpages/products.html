@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../JavaScript/picture text.js">
+    <link rel="stylesheet" href="../CSS/product.css">
+    <style>
+        /*CSS for body*/
+        body {
+            background-image: url(../pictures/background.jpg);
+        }
+
+        /*CSS for images displayed in products page*/
+        .img {
+            width: 250px;
+            margin-top: 10px;
+            margin-left: 25px;
+        }
+
+        /*CSS for check box and check box conditions start*/
+        #check1 {
+            display: none;
+        }
+
+        #check1:checked~.moretxt1 {
+            display: contents;
+        }
+
+        #check2 {
+            display: none;
+        }
+
+        #check2:checked~.moretxt2 {
+            display: contents;
+        }
+
+        #check3 {
+            display: none;
+        }
+
+        #check3:checked~.moretxt3 {
+            display: contents;
+        }
+
+        #check4 {
+            display: none;
+        }
+
+        #check4:checked~.moretxt4 {
+            display: contents;
+        }
+
+        #check5 {
+            display: none;
+        }
+
+        #check5:checked~.moretxt5 {
+            display: contents;
+        }
+
+        #check6 {
+            display: none;
+        }
+
+        #check6:checked~.moretxt6 {
+            display: contents;
+        }
+
+        /*CSS for footer*/
+        footer {
+            top: 1450px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- HTML for navigation bar start -->
+    <header class="bar">
+        <div class="navbar">
+            <nav>
+                <img src="../pictures/logo.png" class="logo">
+                <ul>
+                    <li> <a href="home.html">Home</a> </li>
+                    <li class="active"> <a href="">Products</a></li>
+                    <li> <a href="blog.html"> Blog</a></li>
+                    <li> <a href="research.html">Research</a></li>
+                    <li> <a href="contact us.html"> Contact Us</a></li>
+                </ul>
+                <form action="home.html">
+                    <h4>Search</h4>
+                    <input type="text" class="search">
+                    <input type="submit" class="button" id="button">
+                    <label for="button"><img src="../pictures/Screenshot (590).png" alt=""></label>
+                </form>
+            </nav>
+        </div>
+    </header>
+    <!-- division of navigation bar stops  -->
+
+    <br><br><br><br><br><br><br><br>
+
+    <!-- division for first column starts -->
+    <div class="column1">
+        <div class="phn phn1">
+            <input type="checkbox" id="check1">
+            <div><img src="../pictures/11 redmi.jpg" class="img"></div>
+            <div class="text text1">
+                <h1>Price: <span>Rs 27,000</span></h1>
+                <h1>Redmi Note 11</h1>
+            </div>
+            <div class="moretxt moretxt1">
+                <h1>Brand: <span>Xiaomi</span></h1>
+                <h1>Display: <span>6.6 Inches</span></h1>
+                <h1>RAM: <span> 6GB</span></h1>
+                <h1>Battery: <span>Li-Po 5000 mAh</span></h1>
+                <h1>Font Camera: <span>13MP</span></h1>
+                <h1>Rear Camera: <span>Quad(50MP primary + 8MP ultrawide +2MP macro +2MP depth)</span></h1>
+                <a href="contact us.html">
+                    <h1 class="box">Buy Now</h1>
+                </a>
+            </div>
+            <label for="check1" class="more">
+                <h1>Details..</h1>
+            </label>
+        </div>
+        <br>
+        <br>
+        <div class="phn2 phn">
+            <input type="checkbox" id="check2">
+            <div><img src="../pictures/samsung Z.jpg" alt="" class="img"></div>
+            <div class="text text2">
+                <h1>Price: <span>Rs 70,680</span></h1>
+                <h1>Samsung Galaxy Z flip</h1>
+            </div>
+            <div class="moretxt moretxt2">
+                <h1>Brand: <span>Samsung</span></h1>
+                <h1>Display: <span>6.7 Inches</span></h1>
+                <h1>RAM: <span> 8GB LPDDRA</span></h1>
+                <h1>Battery: <span>Li-Po 3000 mAh</span></h1>
+                <h1>Font Camera: <span>10MP</span></h1>
+                <h1>Rear Camera: <span>12 MP Dual Pixel</span></h1>
+                <a href="contact us.html">
+                    <h1 class="box">Buy Now</h1>
+                </a>
+            </div>
+            <label for="check2" class="more">
+                <h1>Details..</h1>
+            </label>
+        </div>
+    </div>
+        <!-- division for first column ends -->
+
+        <!-- division for second column starts -->
+    <div class="column2">
+        <div class="phn3 phn">
+            <input type="checkbox" id="check3">
+            <div><img src="../pictures/oneplus.jpg" alt="" class="img"></div>
+            <div class="text">
+                <h1>Price: <span>Rs 135,000</span></h1>
+                <h1>One Plus 10 Pro</h1>
+            </div>
+            <div class="moretxt moretxt3">
+                <h1>Brand: <span>One Plus</span></h1>
+                <h1>Display: <span>6.55 Inches</span></h1>
+                <h1>RAM: <span> 12GB</span></h1>
+                <h1>Battery: <span>5000 mAh</span></h1>
+                <h1>Font Camera: <span>16 MP</span></h1>
+                <h1>Rear Camera: <span>48MP +16MP +2MP</span></h1>
+                <a href="contact us.html">
+                    <h1 class="box">Buy Now</h1>
+                </a>
+            </div>
+            <label for="check3" class="more">
+                <h1>Details..</h1>
+            </label>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="phn4 phn">
+            <input type="checkbox" id="check4">
+            <div><img src="../pictures/A52.jpg" alt="" class="img"></div>
+            <div class="text4 text">
+                <h1>Price: <span>Rs 41,999</span></h1>
+                <h1>Samsung Galaxy A52</h1>
+            </div>
+            <div class="moretxt moretxt4">
+                <h1>Brand: <span>Samsung</span></h1>
+                <h1>Display: <span>6.5 Inches </span></h1>
+                <h1>RAM: <span> 8GB + 128GB</span></h1>
+                <h1>Battery: <span>Li-Po 3000 mah</span></h1>
+                <h1>Font Camera: <span>32MP</span></h1>
+                <h1>Rear Camera: <span>12MP +64MP +5MP +5MP</span></h1>
+                <a href="contact us.html">
+                    <h1 class="box">Buy Now</h1>
+                </a>
+            </div>
+            <label for="check4" class="more">
+                <h1>Details</h1>
+            </label>
+        </div>
+    </div>
+    <!-- division of second column ends -->
+
+    <!-- division of third column starts -->
+    <div class="column3">
+        <div class="phn phn5">
+            <input type="checkbox" id="check5">
+            <div><img src="../pictures/ipjone....2.jpg" alt="" class="img"></div>
+            <div class="text5 text">
+                <h1>Price: <span>Rs 196,990</span></h1>
+                <h1>iPhone 12 Pro Max</h1>
+            </div>
+            <div class="moretxt moretxt5">
+                <h1>Brand: <span>Apple</span></h1>
+                <h1>Display: <span>6.7 Inches </span></h1>
+                <h1>RAM: <span> 256GB</span></h1>
+                <h1>Battery: <span>3687 mAh</span></h1>
+                <h1>Font Camera: <span>12MP</span></h1>
+                <h1>Rear Camera: <span>12MP +12MP +12MP</span></h1>
+                <a href="contact us.html">
+                    <h1 class="box">Buy Now</h1>
+                </a>
+            </div>
+            <label for="check5" class="more">
+                <h1>Details</h1>
+            </label>
+        </div>
+
+        <br><br>
+        <div class="phn phn6">
+            <input type="checkbox" id="check6">
+            <div><img src="../pictures/OPPO - Copy.jpg" alt="" class="img"></div>
+            <div class="text6 text">
+                <h1>Price: <span>Rs 51,999</span></h1>
+                <h1>Poco F3 GT</h1>
+            </div>
+            <div class="moretxt moretxt6">
+                <h1>Brand: <span>Xiaomi</span></h1>
+                <h1>Display: <span>6.67 Inches </span></h1>
+                <h1>RAM: <span> 18GB </span></h1>
+                <h1>Battery: <span>5065 mAh</span></h1>
+                <h1>Font Camera: <span>16MP</span></h1>
+                <h1>Rear Camera: <span>64MP +8MP +2MP</span></h1>
+                <h1>Colors: <span>Predator Black, Gunmetal Silver</span></h1>
+                <a href="contact us.html">
+                    <h1 class="box">Buy Now</h1>
+                </a>
+            </div>
+            <label for="check6" class="more">
+                <h1>Details</h1>
+            </label>
+        </div>
+    </div>
+    <!-- distant for third column ends -->
+
+    <!-- code for footer starts -->
+    <footer>
+        <div class="colone">
+            <img src="../pictures/logo.png" alt="">
+            <h1>Visit us again😊</h1>
+        </div>
+        <div class="coltwo">
+            <h1>Brands</h1>
+            <h2>Xiaomi</h2>
+            <h2>One Plus</h2>
+            <h2>Apple</h2>
+            <h2>Samsung</h2>
+        </div>
+        <div class="colthree">
+            <h1>About Us</h1>
+            <h2><a href="home.html"> Home</a></h2>
+            <h2><a href="products.html"> Products </a></h2>
+            <h2><a href="blog.html"> Blog</a></h2>
+            <h2><a href="research.html"> Research </a></h2>
+            <h2><a href="contact us.html"> Contact</a> </h2>
+        </div>
+        <div class="colfour">
+            <h1>Contact Us</h1>
+            <h2>Facebook</h2>
+            <h2>Instagram</h2>
+            <h2>Phone No</h2>
+            <h2>Twitter</h2>
+        </div>
+        <div class="last">
+            <h3>&copy;2022 Rajbanshi Store</h3>
+        </div>
+    </footer>
+    <!-- code for footer ends -->
+</body>
+
+</html>

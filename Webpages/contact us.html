@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../JavaScript/form validation.js"></script>
+
+    <style>
+        body{
+            background-color:rgb(253, 246, 235);
+        }
+        footer{
+            top: 680px;
+        }
+        form{
+            width: 550px;
+            position: absolute;
+            left: 130px;
+            background-color: rgb(241, 231, 252);
+        }
+        .name{
+            margin: 15px;
+        }
+        .name input[type=text] {
+            align-items: left;
+        }
+        .name label{
+            font-size: 30px;
+            margin-left: 30px;
+        }
+        .sub{
+            margin-left: 475px;
+            margin-bottom: 5px;
+            margin-top: -50px;
+            width: 60px;
+            
+        }
+        
+
+        form div label{
+            position: absolute;
+            margin-top: 15px;
+        }
+        form div input{
+            margin-left: 170px;
+            margin-top: 20px;
+            height: 30px;
+            width: 350px;
+        }
+        form div textarea{
+            margin-top: 20px;
+            margin-left: 170px;
+            width: 350px;
+            height: 90px;
+        }
+        .text{
+            background-color:blanchedalmond;
+            width: 520px;
+            height: 453px;
+            margin-left: 690px;
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .text h1{
+           margin-left: 20px;
+            font-family: sans-serif;
+            font-size: 40px;
+            color:rgb(116, 114, 114);
+        }
+        .text h2{
+            margin-left: 20px;
+            font-family:monospace ;
+            fon
+            t-size: 25px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HTML for navigation bar start -->
+    <header>
+        <div class="navbar">
+            <nav>
+                <img src="../pictures/logo.png" class="logo">
+                <ul>
+                    <li> <a href="home.html" >Home</a> </li>
+                    <li> <a href="products.html">Products</a></li>
+                    <li> <a href="blog.html"> Blog</a></li>
+                    <li> <a href="research.html">Research</a></li>
+                    <li class="active"> <a href="contact us.html"> Contact Us</a></li>
+                </ul>
+                <form action="home.html">
+                    <h4>Search</h4>
+                    <input type="text" class="search">
+                    <input type="submit" class="button" id="button">
+                    <label for="button" ><img src="../pictures/Screenshot (590).png" alt=""></label>
+                </form>
+            </nav>
+        </div>
+    </header>
+    <!-- HTML for navigation bar ends -->
+
+    <br><br><br><br><br><br><br><br><br><br>
+    <!-- creating form  -->
+    <div>
+        <form action="" onsubmit="return form();">
+            <div class="name">
+                <label>Name:</label>
+                <input type="text" id="name">
+            </div>
+            <div class="name">
+                <label>Phone.No:</label>
+                <input type="number" id="phnno">
+            </div>
+            <div class="name">
+                <label>Address:</label>
+                <input type="text" id="address">
+            </div>
+            <div class="name">
+                <label>Email:</label>
+                <input type="text" id="email">
+            </div>
+            <div class="name">
+                <label>Message</label>
+                <textarea name="" id="Message" cols="30" rows="10"></textarea>
+            </div>
+            <div >
+                <input type="submit" placeholder="submit" class="sub">
+            </div>
+        </form>
+    </div>
+    <!-- display contact information  -->
+    <div class="text">
+        <br><br><br><br><br>
+        <h1> For more information</h1>
+        <br>
+        <h2>Contact us: 9807086443 </h2>
+        <h2>Email: rajbanshistore001@gmail.com </h2>
+        <h2>Facebook: Rajbanshi Store</h2>
+        <h2>Instagram: rajbanshi_store</h2>
+
+        <h2>Address: Biratnagar-09, Morang</h2>
+    </div>
+
+    <!-- code for footer starts  -->
+    <footer>
+        <div class="colone">
+            <img src="../pictures/logo.png" alt="">
+            <h1>Visit us again😊</h1>
+        </div>
+        <div class="coltwo">
+            <h1>Brands</h1>
+            <h2>Xiaomi</h2>
+            <h2>One Plus</h2>
+            <h2>Apple</h2>
+            <h2>Samsung</h2>
+        </div>
+        <div class="colthree">
+            <h1>About Us</h1>
+            <h2><a href="home.html"> Home</a></h2>
+            <h2><a href="products.html"> Products </a></h2>
+            <h2><a href="blog.html"> Blog</a></h2>
+            <h2><a href="research.html"> Research </a></h2>
+            <h2><a href="contact us.html"> Contact</a> </h2>
+        </div>
+        <div class="colfour">
+            <h1>Contact Us</h1>
+            <h2>Facebook</h2>
+            <h2>Instagram</h2>
+            <h2>Phone No</h2>
+            <h2>Twitter</h2>
+        </div>
+        <div class="last">
+            <h3>&copy;2022 Rajbanshi Store</h3>
+        </div>
+    </footer>
+    <!-- code for footer ends  -->
+</body>
+</html>

@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* CSS for logo  */
+.logo{
+    width: 25%;
+    padding-top: 60px;
+    z-index: 100;
+}
+/* CSS for header  */
+navbar{
+    width: 100px;
+    z-index: 100;
+}
+/* CSS for navigation bar */
+nav{
+    z-index: 10;
+    position: fixed;
+    height: 150px;
+    background-color: rgb(219, 224, 233);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    
+}
+/* CSS for unordered list  */
+nav ul{
+    background-color: rgb(197, 197, 169);
+    width: 990px;
+    height: 50px;
+    border-radius: 100px;
+    margin-top: -10px;
+}
+/* CSS for for the list  */
+nav ul li{
+    margin-right: 30px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+/* CSS for hyperlink in navigation bar  */
+nav ul li a{
+    text-decoration: none;
+    font-size: 30px;
+}
+/* CSS for active webpage  */
+.active{
+    height: 70pxpx;
+    width: 100%;
+    background-color: rgb(238, 211, 175);
+    border-radius: 30px;
+}
+/* CSS for hover on menu bar  */
+nav li:hover{
+    background-color:aliceblue;
+     transition:  0.9s;
+     border-radius: 15px;
+}
+/* CSS for search button */
+.button{
+    display: none;
+}
+/* CSS for search bar  */
+nav form{
+    position: absolute;
+    top: 110px;
+    left: 600px;
+    width: 300px;
+}
+/* CSS for searching area of search  */
+.search{
+    height: 20px;
+    width: 300px;
+    border-radius: 50px;
+}
+/* CSS for search button image  */
+nav form label img{
+    position: absolute;
+    top: -1px;
+    left: 310px;
+    width: 25px;
+}
+/* CSS for search text  */
+nav form h4{
+    position: absolute;
+    left: -55px;
+    top: 3px;
+}
+/* CSS for Home bar  */
+li:nth-child(1){
+    text-align: center;
+    width: 120px;
+}
+/* CSS for products bar  */
+li:nth-child(2){
+    text-align: center;
+    width: 150px;
+}
+/* CSS for blog bar  */
+li:nth-child(3){
+    text-align: center;
+    width: 120px;
+}
+/* CSS for research bar  */
+li:nth-child(4){
+    text-align: center;
+    width: 130px;
+}
+/* CSS for contact us bar  */
+li:nth-child(5){
+    text-align: center;
+    width: 250px;
+}
+/* CSS for text for hyperlink  */
+.box{
+    margin-left: 110px;
+    border: 7px solid  rgb(189, 168, 228);
+    width: 140px;
+    text-align: center;
+    background-color: rgb(189, 168, 228);
+    border-radius: 10px;
+}
+
+/* CSS for " details" of product page  */
+#check{
+    display: none;
+}
+.phn label{
+    margin: 20px 135px;
+    font-size: 25px;
+}
+.moretxt{
+    display: none;
+}
+.p1{
+    text-align: center;
+}
+#check:checked~.moretxt{
+    display: contents;
+}
+/* CSS for " details " of product page ends  */
+
+/* CSS for footer  */
+footer{
+    background-color: rgb(184, 202, 155);
+    height: 250px;
+    position: absolute;
+    width: 100%;
+    
+}
+/* CSS for first column  */
+.colone{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 190px;
+}
+/* CSS for first column image  */
+.colone img{
+    height: 200px;
+    width: 250px;    
+}
+/* CSS for first column text  */
+.colone h1{
+    font-style: oblique;
+    position: absolute;
+    bottom: 55px;
+    color: white;
+}
+/* CSS for first column ends  */
+
+/* CSS for second column  */
+.coltwo{
+    position: absolute;
+    left: 490px;
+    top: 30px;
+}
+/* CSS for second column head */
+.coltwo h1{
+    color: rgb(106, 115, 116);
+    font-style:oblique;
+}
+/* CSS for second column text  */
+.coltwo h2{
+    color: white;
+    font-style: italic;
+}
+/* CSS for third column */
+.colthree{
+    position: absolute;
+    left: 690px;
+    top: 30px;
+}
+/* CSS for third column head  */
+.colthree h1{
+    color: rgb(106, 115, 116);
+    font-style:oblique;
+}
+/* CSS for third column text  */
+.colthree h2{
+    color: white;
+    font-style: italic;
+}
+/* CSS for third column to hyperlink */
+.colthree h2 a{
+    text-decoration: none;
+    color: white;
+}
+/* CSS for fourth column */
+.colfour{
+    position: absolute;
+    left: 890px;
+    top: 30px;
+}
+/* CSS for fourth column head  */
+.colfour h1{
+    color: rgb(106, 115, 116);
+    font-style:oblique;
+}
+/* CSS for fourth column text  */
+.colfour h2{
+    color: white;
+    font-style: italic;
+}
+/* CSS for copyright text  */
+.last{
+    position: absolute;
+    top: 225px;
+    left: 550px;
+    color: whitesmoke;
+    font-style: italic;
+}

@@ -1,0 +1,78 @@
+/* CSS for first column1 */
+.column1{
+    position: absolute;
+    left: 150px;
+}
+/* CSS for second column2 */
+.column2{
+    position: absolute;
+    left: 550px;
+}
+/* CSS for third column3 */
+.column3{
+    position: absolute;
+    left: 950px;
+}
+/* CSS for divisions for products displayed in products page  */
+.phn {
+    border: 5px solid rgb(243, 241, 241);
+    border-radius: 10px;
+    background-color: rgb(233, 233, 252);
+    display: inline-block;
+    width: 300px;
+}
+/* CSS for checkbox label  */
+.phn label{
+    margin: 0px 0px;
+    padding: 0%;
+}
+.phn label{
+    padding-left: -100px;
+}
+/* CSS for text in tetails of phone  */
+.text {
+    text-align: center;
+    color: rgb(67, 64, 83);
+    font-size: 10px;
+}
+/* CSS for details of phone in span tag  */
+.text span {
+    color: rgb(180, 136, 94);
+}
+/* CSS for text in tetails of phone  */
+.text3 {
+    text-align: start;
+    color: darkslateblue;
+}
+/* CSS for details of phone in span tag  */
+.text3 span {
+    color: rgb(180, 136, 94);
+}
+/* CSS for details bable of checkbox */
+.more h1{
+    width: 120px;
+    border: 2px solid silver;
+    margin-top: 9px;
+    margin-left: 85px;
+    text-align: center;
+    font-size: 20px;
+}
+/* CSS for hovering label for checkbox */
+.more h1:hover{
+    background-color:rgb(219, 203, 186);
+    transition: 0.9s;
+}
+/* CSS for hidden details  */
+.moretxt{
+    color: darkslateblue;
+    font-size: 12px;
+}
+/* CSS for hidden details in span tag  */
+.moretxt span{
+    color: rgb(180, 136, 94);
+    font-size: 20px;
+}
+/* CSS for hyperlink for products */
+.moretxt a h1{
+    margin-left: 50px;
+}
